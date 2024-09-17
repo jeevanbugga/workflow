@@ -7,4 +7,4 @@ jobs:
                  - name: Welcome Message
                    run: echo "Sample Work flow"
                  - name: list
-                   run: ls
+                   run: sudo ls
