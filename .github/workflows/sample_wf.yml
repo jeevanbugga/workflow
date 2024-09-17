@@ -7,4 +7,10 @@ jobs:
                  - name: Welcome Message
                    run: echo "Sample Work flow"
                  - name: list
-                   run: sudo ls
+                   run: sudo ls -al /
+
+    Second_Job:
+            runs-on: ubuntu-22.04
+            steps:
+                 - name: print message
+                   run: echo "printed from second job"
