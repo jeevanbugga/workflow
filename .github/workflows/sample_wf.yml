@@ -1,0 +1,10 @@
+name: sample workflow
+on: push 
+jobs:
+    Display_Readme:
+            runs-on: ubuntu-latest
+            steps:
+                 - name: Welcome Message
+                   run: echo "Sample Work flow"
+                 - name: list
+                   run: ls
